@@ -1,0 +1,58 @@
+*,
+*::after,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+
+}
+h1 {
+  margin-top: 15rem;
+}
+form,
+h1 {
+  margin-left: 40rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+button {
+  margin-block: 1rem;
+  padding-inline: 1.5rem;
+  padding: 0.4rem;
+}
+
+#btn-remove {
+  background-color: rgb(223, 98, 206);
+}
+
+#btn-add {
+  background-color: rgb(232, 218, 71);
+}
+ 
+#todo-input {
+
+  padding: 0.3rem;
+
+
+}
+
+li {
+  list-style: none;
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+}
+ul > li > label {
+  padding-left: 0.5rem;
+}
+.linethrough {
+  text-decoration: line-through;
+}

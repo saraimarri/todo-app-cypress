@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Todo-App</title>
+</head>
+<body>
+    <h1> Todo App </h1>
+    <form>
+<label for="all">
+    <input type="radio" class="radio-button"  id="all" name="radio-options" checked/> All
+    </label>
+
+<label for="open">
+    <input type="radio" class="radio-button" name="radio-options"  id="open" /> Open
+    </label>
+
+    <label for="done">
+        <input type="radio" class="radio-button" name="radio-options"  id="done" /> Done
+        </label>
+
+<div id="button-container">
+    <button id="btn-remove">Remove done Todos</button>
+<div id="add-todo-container">
+    <input type="text" placeholder="what todo next?" id="todo-input" />
+    <button id="btn-add">Add</button>
+
+
+</div>
+</div>
+
+<ul id="todo-list"></ul>
+    </form>
+
+
+<script src ="script.js"></script>
+
+
+
+</body>
+</html>
