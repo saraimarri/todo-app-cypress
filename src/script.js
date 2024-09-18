@@ -6,19 +6,13 @@ const optionsDone = document.getElementById("done");
 const optionsOpen = document.getElementById("open");
 const todoList = document.getElementById("todo-list");
 
-
-
-
 const state = {
- 
- todos: [],
-filter: "all",
-
+  todos: [],
+  filter: "all",
 };
 
 // call render function
 renderElements();
-
 
 // FUNCTIONS //
 // render function
